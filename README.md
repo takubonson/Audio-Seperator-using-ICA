@@ -1,5 +1,10 @@
 # Audio-Seperator-using-ICA
 
+## How to run
+```
+python audio_separator.py
+```
+
 ## Demo
 
 #### check out <br />
