@@ -2,5 +2,4 @@
 
 ## Demo
 
-<audio controls src="./data/music1.wav">
-</audio>
+[Input audio 1](./data/music1.wav)
