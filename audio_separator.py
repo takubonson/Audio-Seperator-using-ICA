@@ -3,13 +3,14 @@ import numpy as np
 import numpy.linalg as LA
 from scipy.io.wavfile import read, write
 
-rate = read("data/speechA1.wav")[0]
-A1 = read("data/speechA1.wav")[1].astype("float64")
-A2 = read("data/speechA2.wav")[1].astype("float64")
-A1 -= np.mean(A1)
-A2 -= np.mean(A2)
-sample_num = len(A1)
-X = np.matrix([A1, A2])
+print("May take a few minutes to run ......")
+rate = read("data/speech1.wav")[0]
+speech1 = read("data/speech1.wav")[1].astype("float64")
+speech2 = read("data/speech2.wav")[1].astype("float64")
+speech1 -= np.mean(speech1)
+speech2 -= np.mean(speech2)
+sample_num = len(speech1)
+X = np.matrix([speech1, speech2])
 sum = np.matrix([[0., 0.], [0., 0.]])
 for i in range(sample_num):
     x = X[:, i]

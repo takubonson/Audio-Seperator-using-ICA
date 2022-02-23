@@ -2,4 +2,6 @@
 
 ## Demo
 
-![](./Demo_data/Input/music1.mov)
+####check out <br />
+[demo 1](./demo1/) <br />
+[demo 2](./demo2/) <br />
